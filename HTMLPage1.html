@@ -1,0 +1,68 @@
+﻿﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Merry Christmas!</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Season's Greetings!</h1>
+        <p>Wishing you a Merry Christmas and a Happy New Year!</p>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="Christmas.html">Home</a>
+                <a href="decor.html">Christmas decor</a>
+                <a href="reteta.html">Christmas cookies</a>
+            </div>
+        </div> 
+        <p id="snowflakeMessage">Let it snow!</p>
+    </header>
+    <main>
+        <div class="paragraf">
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="email" id="username" name="username" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="responseMessage"></div>
+        <div id="countdownContainer">
+            <div id="countdownTimer">🎄 0d 0h 0m 0s until Christmas 🎁</div>
+        </div>
+        <div class="paragraf">
+            <h4 id="customMessage">The magic of Christmas is in the air!</h4>
+            <input type="text" id="messageInput" placeholder="Enter your Christmas message">
+            <button id="updateMessageButton">Update Message</button>
+        </div>
+        <div class="snowflakes">
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+            <div class="snowflake"></div>
+        </div>
+        <div class="paragraf">
+            <h4>The magic of Christmas is in the air, as twinkling lights dance on every tree and the scent of gingerbread fills the room. It's a time to gather with loved ones, share warm hugs, and create memories that will sparkle like snowflakes long after the season has passed. Whether you're sipping hot cocoa by the fire or building snowmen outside, may your heart be as full as your stockings, and may this holiday season bring you joy, peace, and a little bit of Christmas magic!</h4>
+            <img src="pozahome.webp" alt="Imagine cu brad de Craciun">
+        </div>
+    </main>
+    <footer>
+        <canvas id="christmasCanvas"></canvas>
+        <div class="tree-container">
+            <div class="tree"></div>
+            <div class="tree"></div>
+            <div class="tree"></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
