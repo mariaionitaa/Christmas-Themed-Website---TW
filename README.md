@@ -1,0 +1,1 @@
+Developed a multi-page static website using HTML, CSS, and JavaScript. Implemented structured navigation between pages. Designed responsive layouts and custom styling using separate CSS files. Added interactive elements using JavaScript. Organized project structure following clean code principles.
